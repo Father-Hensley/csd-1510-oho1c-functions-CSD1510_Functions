@@ -38,9 +38,9 @@ while True:
 
         again = input("Want to try again(y/n): ").lower()#NEWish-Cycles through asking "continue"Note:.lower() converts all to lower case
         if again != "y": #IF! they answer y it will prompt again
-            break
+            break 
 
     except ValueError: #NEW-Creates an exception allowing the function to continue
-        print("NUMBER!") #Probably not what should be shown to employer
+        print("Numbers unless otherwise specified") #If they do not want to give integers
 
 
