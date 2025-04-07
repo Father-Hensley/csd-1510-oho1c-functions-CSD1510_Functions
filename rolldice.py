@@ -6,16 +6,41 @@
 #The function should not be called if number of dice is zero or less and instead should report bad input to the user
 #The function should not be called if number of sides is 1 or less and instead should report bad input to the user
 #Sample outputs (your text does not have to match exactly)
+import random 
+random.seed() #Gets that engine running
 
-# How many dice to roll? 3
-# How many sides? 6
-# Here are the results: [6, 1, 6]
+#Defaults inputs to zero before user inputs(advised)
+number_of_Dice = 0
+sides_of_Dice = 0
 
-# How many dice to roll? 0
-# How many sides? 5
-# Error: Sides must be greater than 1 and dice count greater than 0.
+def diceroll(number_of_Dice, sides_of_Dice): #Function for inputs
+    dice_result = [] #Start with an empty list
+    for i in range(number_of_Dice): #Loop for dice roll
+        roll = random.randint(1, sides_of_Dice) #Uses the random.seed
+        dice_result.append(roll) #Building the list result
+    return dice_result
 
-# How many dice to roll? 20
-# How many sides? 20
-# Here are the results: [18, 19, 6, 8, 13, 6, 6, 6, 18, 12, 20, 10, 14, 8, 14, 17, 12, 15, 20, 17]
+#NEWish-While loop to run the code
+while True:
+    try:
+        #User input and integer conversion
+        number_of_Dice = int(input("How many dice are you rolling? "))
+        sides_of_Dice = int(input("How many sides on the dice? "))
+        if number_of_Dice <= 0: #Did they follow the rule?
+            print("Dice must be greater than 0, try again")
+            continue #Skips to the next step
+        elif sides_of_Dice <=1:
+            print("Sides must be greater than 1, try again")
+            continue #Skips to the next step
+        final = diceroll(number_of_Dice, sides_of_Dice) #Congrats you're rolling dice
+        final_result = ", ".join(str(num) for num in final) #Collecting those results and adding a comma to make it all pretty
+        print(f"You rolled {number_of_Dice} dice and chose {sides_of_Dice} sides. Resulting in: {final_result}") #Its the result of all of this
+
+        again = input("Want to try again(y/n): ").lower()#NEWish-Cycles through asking "continue"Note:.lower() converts all to lower case
+        if again != "y": #IF! they answer y it will prompt again
+            break
+
+    except ValueError: #NEW-Creates an exception allowing the function to continue
+        print("NUMBER!") #Probably not what should be shown to employer
+
 
