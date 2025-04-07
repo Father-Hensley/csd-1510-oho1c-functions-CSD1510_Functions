@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.4">
+  <diagram id="O94j59y9Gcy0K1DmavP0" name="checkinput.py">
+    <mxGraphModel dx="1731" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-1" target="zLyRX6xXWxmDlXGxzADZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="185" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-2" target="zLyRX6xXWxmDlXGxzADZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-2" value="&quot;Input integer&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-3" target="zLyRX6xXWxmDlXGxzADZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-3" value="Input user provided" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-4" target="zLyRX6xXWxmDlXGxzADZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-4" value="Check if input is an int." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="185" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-5" target="zLyRX6xXWxmDlXGxzADZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-5" target="zLyRX6xXWxmDlXGxzADZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-5" value="Is input an int?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="615" y="300" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-6" target="zLyRX6xXWxmDlXGxzADZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-6" value="Yes" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="70" y="315" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-7" target="zLyRX6xXWxmDlXGxzADZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-7" value="No" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="640" y="395" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-8" target="zLyRX6xXWxmDlXGxzADZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-8" value="Display int" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="75" y="390" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-9" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="75" y="490" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-18" target="zLyRX6xXWxmDlXGxzADZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-18" value="Display Error message" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="490" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-20" value="Cycle back to beginning until Int provided" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="425" y="487.5" width="85" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zLyRX6xXWxmDlXGxzADZ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zLyRX6xXWxmDlXGxzADZ-20" target="zLyRX6xXWxmDlXGxzADZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
